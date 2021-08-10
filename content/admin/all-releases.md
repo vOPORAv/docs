@@ -1,38 +1,14 @@
----
-title: GitHub Enterprise Server releases
-intro: 'Documentation for the currently supported and previously deprecated versions of {{ site.data.variables.product.prodname_ghe_server }}.'
-allowTitleToDifferFromFilename: true
-versions:
-  ghes: '*'
-topics:
-  - Enterprise
-shortTitle: Releases
----
-
-## Currently supported
-
-See [{% data variables.product.prodname_enterprise %}](https://github.com/enterprise) for information about the latest release.
-
-{% for supportedRelease in enterpriseServerReleases.supported %}
-- [{% data variables.product.prodname_ghe_server %} {{supportedRelease}}](/enterprise-server@{{supportedRelease}})
-{% endfor %}
-
-## Deprecated
-
-Documentation for deprecated versions remains available but is no longer maintained.
-
-{% for deprecatedRelease in enterpriseServerReleases.deprecatedReleasesWithNewFormat %}
-- [Enterprise Server {{deprecatedRelease}}](/enterprise-server@{{deprecatedRelease}})
-{% endfor %}
-
-{% for deprecatedReleaseLegacyFormat in enterpriseServerReleases.deprecatedReleasesWithLegacyFormat %}
-- [Enterprise Server {{deprecatedReleaseLegacyFormat}}](/enterprise/{{deprecatedReleaseLegacyFormat}})
-{% endfor %}
-
-## Deprecated developer documentation
-
-Developer documentation for deprecated versions remains available but is no longer maintained.
-
-{% for deprecatedDevRelease in enterpriseServerReleases.deprecatedReleasesOnDeveloperSite %}
-- [Enterprise Server {{deprecatedDevRelease}}](https://developer.github.com/enterprise/{{deprecatedDevRelease}})
-{% endfor %}
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "YOUR_NAME_HERE"
+  given-names: "YOUR_NAME_HERE"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "Lisa"
+  given-names: "Mona"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "docs"
+version: 1.0.0
+doi: 10.5281/zenodo.1234
+date-released: 2021-08-10
+url: "https://github.com/github/docs"
